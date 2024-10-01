@@ -1,7 +1,7 @@
 {
   "greeting": {
     "title": "조영빈 \uD83D\uDC8D 최연주\n결혼합니다!",
-    "message": "저희 결혼합니다.\n\n서로에게 알맞은 온도로 따뜻하던 우리.\n부부로서 첫걸음을 내딛는 그 설렘의 순간에\n소중한 분들을 초대합니다.",
+    "message": "저희 결혼합니다.\n\n오랜시간 연인의 관계에서.\n부부라는 새로운 관계로 시작하는 날\n소중한 분들을 초대합니다.",
     "host": {
       "groom": {
         "name": "조영빈",
@@ -66,7 +66,7 @@
         {
           "name": "최연주",
           "relation": "신부",
-          "bank": "토스뱅크",
+          "bank": "카카오뱅크",
           "account": "3333-12-8582602",
           "kakaopayAccount": "",
           "tossAccount": ""
@@ -97,11 +97,11 @@
   "locationInfo": [
     {
       "title": "\uD83D\uDCCD 지하철",
-      "desc": "\uD83D\uDC49\uD83C\uDFFB 인천 1호선 문학경기장역 (도보 10분)"
+      "desc": "\uD83D\uDC49\uD83C\uDFFB 인천 1호선 문학경기장역 (도보 10분)\n"
     },
     {
       "title": "\uD83D\uDCCD 주차안내",
-      "desc": "\uD83D\uDC49\uD83C\uDFFB 1층에서 차량번호 등록 후 출차 3시간 무료주차"
+      "desc": "\uD83D\uDC49\uD83C\uDFFB 1층에서 차량번호 등록 후 출차 3시간 무료주차\n"
     }
   ],
   "emojis": [
