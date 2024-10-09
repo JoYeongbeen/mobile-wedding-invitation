@@ -10,12 +10,19 @@ const PhotoGallery = () => {
     height: '150px',
   };
 
+  const galleryOptions = {
+    zoom: false, // 터치 확대 비활성화
+    maxZoomLevel: 1, // 최대 줌 레벨을 1로 설정 (확대 불가)
+    pinchToClose: false, // 핀치로 닫는 기능 비활성화
+    doubleTapZoom: false, // 더블 탭 확대 비활성화
+  };
+
   return (
-    <Gallery>
+    <Gallery options={galleryOptions}>
       <div
         style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(3, 0fr)',
+          gridTemplateColumns: 'repeat(3, 1fr)',
           gridGap: 2,
         }}>
         {images.map((image, index) => {
