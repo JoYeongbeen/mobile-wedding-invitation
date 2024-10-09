@@ -15,6 +15,8 @@ const PhotoGallery = () => {
     maxZoomLevel: 1, // 최대 줌 레벨을 1로 설정 (확대 불가)
     pinchToClose: false, // 핀치로 닫는 기능 비활성화
     doubleTapZoom: false, // 더블 탭 확대 비활성화
+    imageClickAction: null, // 이미지 클릭 시 확대 비활성화
+    bgClickAction: 'close', // 배경 클릭 시 닫기
   };
 
   return (
