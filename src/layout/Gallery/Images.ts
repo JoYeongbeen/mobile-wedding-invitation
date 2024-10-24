@@ -7,7 +7,6 @@ import image06 from '@/assets/images/06.jpeg'
 import image07 from '@/assets/images/07.jpeg'
 import image08 from '@/assets/images/08.jpeg'
 import image09 from '@/assets/images/09.jpeg'
-import image10 from '@/assets/images/10.jpeg'
 
 const images = [   /* 이미지 경로를 리스트로 저장 */
   {
@@ -55,11 +54,6 @@ const images = [   /* 이미지 경로를 리스트로 저장 */
   },{
     alt: 'image09',
     source: image09,
-    width: 640,
-    height: 960
-  },{
-    alt: 'image10',
-    source: image10,
     width: 640,
     height: 960
   }
